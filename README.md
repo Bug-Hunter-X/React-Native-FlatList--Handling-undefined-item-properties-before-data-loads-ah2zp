@@ -1,0 +1,2 @@
+# React Native FlatList: Handling undefined item properties
+This repository demonstrates a common error in React Native's FlatList component: attempting to access properties of an item before the data has finished loading.  The `bug.js` file shows the problematic code, resulting in a `TypeError: Cannot read properties of undefined (reading 'name')`. The solution, found in `bugSolution.js`, addresses this by conditionally rendering the item's content only after verifying data availability.  This ensures a smoother user experience and prevents unexpected crashes. 
